@@ -1,0 +1,20 @@
+1. 在SCSS文件的开头处设定变量：
+$translucent-white:
+rgba(255,255,255,0.3);
+
+
+然后在SCSS文件中找到所有的rgba(255,255,255,0.3)参数，并将它们全部替换为$translucent-white
+
+
+2. 在SCSS文件的开头处设定变量：
+$icon-square-length: 300px;
+
+然后将以下代码加入到.icon的选择器中
+width: $icon-square-length;
+height: $icon-square-length;
+
+
+3. 在SCSS文件的开头处设定变量：
+$standard-border: 4px solid black;
+
+然后在文件中找到所有的4px solid black参数，并将它们替换为$standard-border

@@ -1,0 +1,7 @@
+在cmd控制台，使用cd命令，将路径指定到网页文件所在的位置，本课中为桌面上的student文件夹，故使用两条命令：
+cd desktop
+cd student
+
+之后，有两种选择：
+1. 直接将文件夹中的scss文件转换为css文件: sass main.scss main.css
+2. 让系统后台检测scss是否有变动，一旦检测到.scss文件的最近一次保存的内容有所变动，则编译覆盖现有的.css文件: sass --watch main.scss:main.css

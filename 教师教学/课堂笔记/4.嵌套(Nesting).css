@@ -1,0 +1,26 @@
+使用了SASS,我们便解锁了一个新功能：CSS中的选择器和属性现在可以像HTML的标签一样进行嵌套(Nesting)了
+
+我们先来尝试下嵌套选择器。
+我们先来尝试下嵌套选择器。
+我们先来尝试下嵌套选择器。
+
+以前在CSS中，子级和父级必须分开定义,比如：
+
+.parent {
+  color: blue;
+}
+
+.parent .child {
+    font-size: 12px;
+}
+
+现在，我们可以这样：
+
+
+.parent {
+  color: blue;
+  .child {
+    font-size: 12px;
+  }
+}
+

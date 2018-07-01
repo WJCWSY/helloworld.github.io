@@ -1,0 +1,17 @@
+sass不仅允许选择器的嵌套，也可以对属性进行嵌套。
+
+以前我们用CSS得这样写：
+.parent {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-decoration: none;
+}
+
+现在使用了SCSS则变成：
+.parent {
+  font : {
+    family: Roboto, sans-serif;
+    size: 12px;
+    decoration: none;
+  }
+}

@@ -1,0 +1,5 @@
+SASS全称Syntactically Awesome StyleSheets (直译:语法很牛逼的样表)
+是CSS的扩展应用，可以理解为升级版
+使用SASS，可以写出更简洁，更容易维护的CSS代码,大量减少重复书写的选择器和代码
+SASS样表文件的扩展名为.scss
+.scss文件写作完成后，必须通过计算机控制台将其compile(编译)为.css文件后，方能为网页所读取
