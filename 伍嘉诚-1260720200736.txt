@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my first webpage</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    
+    <!--练习一：Header布局-->
+    <!--练习一：Header布局-->
+    <!--练习一：Header布局-->
+<header class="container">
+    <div class="row">
+        <h1>欢迎来到我的网页</h1>
+        <nav class="col-sm-4 text-right">
+           
+        </nav>
+    </div>
+</header>
+    <!--练习一：Header布局-->
+    <!--练习一：Header布局-->
+    <!--练习一：Header布局-->
+    
+
+    
+    
+        <!--练习二：Section布局:Jumbotron-->
+        <!--练习二：Section布局:Jumbotron-->
+        <!--练习二：Section布局:Jumbotron-->
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="col-sm-12">2018年世界杯</h2>
+        <h3 class="col-sm-12">球场巨星</h3>
+        <a class="btn btn-primary col-sm-2" href="#" role="button" href="idexwjc.html">查看全部</a>
+      </div>
+    </div>
+  </section>
+        <!--练习二：Section布局:Jumbotron-->
+        <!--练习二：Section布局:Jumbotron-->
+        <!--练习二：Section布局:Jumbotron-->
+
+    
+    
+    
+    
+             <!--练习三：Section布局:图片区域-->
+             <!--练习三：Section布局:图片区域-->
+             <!--练习三：Section布局:图片区域-->
+  <section class="container">
+    <div class="row">
+      
+      <figure class="col-sm-6">
+        <p>c罗</p>
+        <img src="2.jpg">
+      </figure>
+      
+      <figure class="col-sm-6">
+        <p>梅西</p>
+        <img src="3.jpg">
+      </figure>
+      
+    </div>
+    
+    <div class="row">
+      
+      <figure class="col-sm-6">
+        <p>内马尔</p>
+        <img src="4.jpg">
+      </figure>
+      
+      <figure class="col-sm-6">
+        <p>哈里凯恩</p>
+        <img src="5.jpg" / width="210" height="345">
+      </figure>
+      
+    </div>
+    
+  </section>
+             <!--练习三：Section布局:图片区域-->
+             <!--练习三：Section布局:图片区域-->
+             <!--练习三：Section布局:图片区域-->
+    
+    
+    
+
+                    <!--练习四：Footer(页脚)区域-->
+                    <!--练习四：Footer(页脚)区域-->
+                    <!--练习四：Footer(页脚)区域-->
+  
+  <footer class="container">
+    	<div class="row">
+        <p class="col-sm-4">&copy;2018 伍嘉诚</p>
+        <ul class="col-sm-8">
+          <li class="col-sm-1">
+          	<img src="images/twitter.svg">
+          </li>
+          <li class="col-sm-1">
+          	<img src="images/facebook.svg">
+          </li>
+          	<li class="col-sm-1">
+            <img src="images/instagram.svg">
+            </li>
+          <li class="col-sm-1">
+          	<img src="images/medium.svg">
+          </li>
+        
+        </ul>
+      </div>
+  </footer>
+                    <!--练习四：Footer(页脚)区域-->
+                    <!--练习四：Footer(页脚)区域-->
+                    <!--练习四：Footer(页脚)区域-->
+               <p align="center">
